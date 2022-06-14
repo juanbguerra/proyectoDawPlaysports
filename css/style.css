@@ -1,0 +1,256 @@
+html,body{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+}
+.fotoLogo{
+    width: 80px;
+    height: 60px;
+}
+
+.containerHoverHeader .aHeaderHover:hover{
+    background-color: #198754;
+
+}
+#title-enroll{
+    background-image: url("../img/maxresdefault.jpg");
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+#footer{
+    background-color: black;
+    color: white;
+}
+.iconosRedes i:hover{
+    color:#198754 ;
+}
+#article1{
+    background-image: url("../img/cesped.jpg");
+    color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#article1 #eslogan .letraCursiva{
+    font-family: 'Kaushan Script', cursive;
+}
+#carouselExampleCaptions{
+    border-top: solid 4px black;
+    border-bottom: solid 4px black;
+}
+#eslogan{
+    border: solid 2px black;
+    border-radius: 20px;
+    padding: 1%;
+    background-color: rgba(0, 0, 0, 0.7);
+   /* background-image: url("../img/fondonegro2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;*/
+   
+}
+.colorModal{
+    
+    background-color: rgb(224, 211, 211) !important;
+}
+#sectionPrincipal2{
+    background-image: url("../img/cesped44.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex:1;
+    /*background-color: rgb(3, 49, 49);*/
+
+}
+#sectionPrincipal{
+    /*background-image: url("../img/cesped44.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;*/
+    background-color: rgb(3, 49, 49);
+    flex:1;
+
+}
+#sectionPrincipal .container .letraUltimaPlaza{
+    font-family: 'Pacifico', cursive;
+}
+.sectionModificarPerfil .editarCuenta{
+    font-family: 'Secular One', sans-serif;
+}
+.sectionRegistroUsuario .editarCuenta{
+    font-family: 'Secular One', sans-serif;
+}
+.sectionGestionUsuarios{
+    background-color:rgb(219, 253, 241);
+    flex:1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+/*Botones leer mas*/
+.leermas2{
+    border-radius: 15px;
+}
+.divFormulario{
+    border: solid 2px black;
+    padding: 1%;
+    border: solid 2px black;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.85);
+}
+
+.sectionPerfilUsuario{
+    background-color:rgb(3, 49, 49);
+    flex:1;
+    color: white;
+}
+
+.sectionRegistroUsuario{
+    background-image: url("../img/cesped44.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+.sectionModificarPerfil{
+    background-image: url("../img/cesped45.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    flex:1;
+
+    
+}
+.containerRegistro{
+    border: solid 2px black;
+    border-radius: 15px;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+.card-body{
+    background-color: rgb(218, 250, 226);
+}
+.fotoCarusel{
+    width: 100%; height: 400px;
+}
+.anuncio{
+    background-color: beige;
+    border: 2px solid black;
+    padding: 10px 10px 20px 10px;
+}
+
+.fotoAnuncio2{
+    width: auto;
+    height: 150px;
+    margin: auto;
+}
+/*Formulario registro*/
+.formularioRegistro{
+    border: solid 2px black;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+/*Formulario editar Usuario*/
+#fotoPersonaEditarPerfil{
+    width: auto;
+    height: 160px;
+}
+
+.fa-star{
+    color: gold;
+}
+
+/*PerfilUsuario*/
+#respuestasComentarios{
+    border: 3px solid grey;
+    border-radius: 15px;
+    padding:2%;
+    background-color:lightgrey;
+}
+.divFormularioDeportes{
+    border-radius: 15px;
+    padding-top: 1%;
+    color: white;
+    background: rgba(0, 0, 0, 0.4);
+}
+.botonesCarrusel{
+    background-color: black;
+    border-radius: 15px;
+}
+
+.swal-modal {
+    background-color: #031E1D !important;
+    border: 3px solid black !important;
+}
+
+.swal-title {
+    font-size: 1.5rem !important;;
+    color: white !important;;
+}
+
+.swal-text {
+    text-align: center;
+    color: white;
+    font-size: 1.2rem;
+}
+
+.swal-button {
+    border-radius: 2px;
+    background-color: lightgrey;
+    font-size: 0.8rem;
+    border: 1px solid lightgray;
+    color: black;
+
+}
+
+.swal-button:hover {
+    background-color: rgb(104, 101, 101,50%) !important;
+    color: white;
+}
+
+.swal-footer {
+    background-color: #198754;
+    border-top: 1px solid ;
+    overflow: hidden;
+}
+
+.swal-icon--success:before {
+    display: none;
+}
+
+.swal-icon--success:after{
+    display: none;
+}
+
+.swal-icon--success__hide-corners{
+    height: 0px;
+    width: 0px;
+    padding: 0%;
+}
+.fotoAnuncio3{
+    width: 20vw ;
+}
+
+.divAnuncio{
+    background-color: rgb(218, 250, 226) !important;
+    margin-top: 15px !important;
+}
+.div-fotoAnuncio3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+@media screen and (max-width:1200px){
+    #botonSearch{
+        padding-top : 1%;
+    }
+}
+@media screen and (max-width: 995px){
+    .divAnuncio2{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .fotoAnuncio3{
+        width: 30vw ;
+    }
+}
